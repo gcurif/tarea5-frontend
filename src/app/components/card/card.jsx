@@ -29,12 +29,20 @@ const Card = ({ pregunta }) => {
         <p>
             {pregunta.texto}
         </p>
+        <br/>
+        <hr/>
         <h4>Respuesta:</h4>
         <p>{pregunta.respuesta.texto}</p>
-
+        <br/>
+        <hr/>
         <h5>Archivo de ejemplo:</h5>
         <p>{pregunta.respuesta.archivo}</p>
-
+        <br/>
+        <hr/>
+        <br/>
+        <b><p>Pistas:</p></b>
+        <p>- Pista front: {pregunta.pistaFront}</p>
+        <p>- Pista back: {pregunta.pistaBack}</p>
 
     </div>
 

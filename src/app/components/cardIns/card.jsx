@@ -27,15 +27,61 @@ const CardIns = ({ title, text, id, respText }) => {
         </span>
         <h4>{title}</h4>
         <p className="mb-4">
-            Este front llama a una api que obtiene las preguntas de la tarea y sus respuestas,
-            correspondientes, sin embargo las respuestas tienen solo un texto generico
-            ("La respuesta esta en el fondo de tu corazón"). Modificar la api  para que incluya
-            el texto de respuesta a la pregunta y responder la pregunta.
+            Este front llama a una api que se conecta a una base de datos mongodb y obtiene
+            las preguntas de la tarea y sus respuestas correspondientes.
+            <br/>
+            <br/>
+            Sin embargo las respuestas tienen solo un texto generico que dice
+            ("La respuesta esta en el fondo de tu corazón"). 
+            <br/>
+            <br/>
+            1. Realizar las modificaciones necesarias para que en vez de que se muestre el texto
+            "La respuesta esta en el fondo de tu corazón" se muestre la respuesta correcta,
+            esta respuesta debe ser redactada por ud mismo.
+
+            <br/>
+            <br/>
+            2. Ademas para cada pregunta se pide un ejemplo en codigo, generar un archivo con el 
+            ejemplo en codigo y en el campo del front indicar el nombre del archivo
+            <br/>
+            <br/>
+            <b>
+            Especificaciones:           
+
+            </b>
         </p>
         <ul>
             <li className="text-sm mt-4">Prohibido hablar de webito rey</li>
-            <li className="text-sm mt-4">Prohibido hablar de webito rey</li>
-            <li className="text-sm mt-4">Prohibido hablar de webito rey</li>
+            <li className="text-sm mt-4">La entrega de esta Tarea se hara mostrando en vivo que modificación
+            se hizo y en que parte, aunque se puede convenir cualquier otro método de entrega</li>
+            <li className="text-sm mt-4">Esta permitido CUALQUIER MÉTODO para lograr lo pedido
+            (que no sea pedirle a alguien mas que lo haga), ya sea modificar el front, modificar la api,
+            usar las funciones de la api, modificar la base de datos u otro método.
+             </li>
+             <li className="text-sm mt-4">Al presionar siguiente se mostrara una primera pregunta de
+             ejemplo con sus datos rellenados, las siguientes se deben completar
+             </li>             
+        </ul>
+        <br/>
+        <b>
+        <p>Cosas que pueden ser utiles (y sirven de pistas):</p></b>
+        <ul>
+        <li className="text-sm mt-4">NextJs (el front), deja en cache las respuestas de la api
+            asi que si cambian algo en la api o la base de datos REINICIEN TODO, tanto back y front, o si no
+            va a parecer como que no cambio nada</li>
+            <li className="text-sm mt-4">Tanto en el back como en el front se dejaron prints o mensajes (a partir
+            de ahora llamenle "logs") a modo de pista, aparecen como print("algo") en el back
+            y como console.log("algo") en el front</li>
+            <li className="text-sm mt-4">Repito, esto tiene mas de un método para lograr lo pedido,
+            se puede modificar el front, se puede modificar la api,
+            se pueden usar las funciones de la api, o se puede modificar la base de datos
+             u otro método.
+             </li>            
+            <li className="text-sm mt-4">Descargar Nosqlbooster e ingresar a la base de datos
+             (los datos de conección estan en la api) </li>
+            <li className="text-sm mt-4">En la api se puede entrar a http://127.0.0.1:8000/docs y esta ahí
+            la documentación automatica, ademas permite interactuar directamente con la api</li>  
+            <li className="text-sm mt-4">Se puede usar Postman también para ineractuar con la api</li>                      
         </ul>
     </div>
 
