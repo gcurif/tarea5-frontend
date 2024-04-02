@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Requerimientos
+Se debe tener instalado nodejs 19 o superior 
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Para iniciar aplicación
+1- Instalar Librerias
+Ejecutar en consola:
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2- Iniciar servidor
+Ejecutar en consola:
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Posibles Problemas
+En caso de que aparezca un mensaje de que no se reconoce el comando
 
-## Learn More
+### linux:
+se puede usar nvm
 
-To learn more about Next.js, take a look at the following resources:
+Instalar nodejs desde nvm
+Ejecutar
+```
+nvm install 19
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Usar la versión 19
+Ejecutar
+```
+npm install
+```
+### Windows:
+En windows se puede descargar e instalar desde: https://nodejs.org/en/download
