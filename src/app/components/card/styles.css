@@ -10,6 +10,7 @@
     -webkit-box-shadow: 3px 4px 46px -22px rgba(138,0,138,1);
     -moz-box-shadow: 3px 4px 46px -22px rgba(138,0,138,1);
     box-shadow: 3px 4px 46px -22px rgba(138,0,138,1);
+    max-width: 800px;
 }
 .card::before {
     content: '';

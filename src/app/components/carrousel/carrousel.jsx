@@ -12,7 +12,7 @@ const Carrousel = ({ preguntas, selectedRoot }) => {
             <Card pregunta={preguntas[selected - 1]}></Card>
         }
         <div className='flex mt-6'>
-            {selected == !0 ? <button onClick={() => setSelected(selected - 1)}>Anterior</button> : null}
+            {selected >0 ? <button onClick={() => setSelected(selected - 1)}>Anterior</button> : null}
             {selected <= preguntas.length - 1 ? <button className='ml-2' onClick={() => setSelected(selected + 1)}>Siguiente</button> : null}
         </div>
     </>

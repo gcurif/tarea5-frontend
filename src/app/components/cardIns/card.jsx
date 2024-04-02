@@ -42,7 +42,8 @@ const CardIns = ({ title, text, id, respText }) => {
             <br/>
             <br/>
             2. Ademas para cada pregunta se pide un ejemplo en codigo, generar un archivo con el 
-            ejemplo en codigo y en el campo del front indicar el nombre del archivo
+            ejemplo en codigo y en el campo del front indicar el nombre del archivo (luego el listado
+            de archivos se puede entregar por cualquier medio, un .zip o via git)
             <br/>
             <br/>
             <b>
@@ -66,9 +67,11 @@ const CardIns = ({ title, text, id, respText }) => {
         <b>
         <p>Cosas que pueden ser utiles (y sirven de pistas):</p></b>
         <ul>
-        <li className="text-sm mt-4">NextJs (el front), deja en cache las respuestas de la api
-            asi que si cambian algo en la api o la base de datos REINICIEN TODO, tanto back y front, o si no
+        <li className="text-sm mt-4">NextJs (el front), aveces deja en cache las respuestas que recibe de la api
+            asi que si cambian algo en la api o la base de datos y no funciona REINICIEN TODO, tanto back y front, o si no
             va a parecer como que no cambio nada</li>
+            <li className="text-sm mt-4">Analizar los mensaje que aprecen en la consola tanto
+            de front y back</li>            
             <li className="text-sm mt-4">Tanto en el back como en el front se dejaron prints o mensajes (a partir
             de ahora llamenle "logs") a modo de pista, aparecen como print("algo") en el back
             y como console.log("algo") en el front</li>
