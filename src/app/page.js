@@ -20,7 +20,7 @@ export default async function Home() {
   return (
     <main className='main'>
         <div className="flex min-h-screen flex-col items-center justify-top main mt-1 mb-10">
-          <h2 className="text-3xl font-bold mb-4 mt-8">Tarea número 4</h2>
+          <h2 className="text-3xl font-bold mb-4 mt-8">Tarea número ????</h2>
           <Carrousel preguntas={preguntas} selectedRoot={0}></Carrousel>
         </div>
     </main>
