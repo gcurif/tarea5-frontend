@@ -13,6 +13,15 @@ export default async function Home() {
   preguntas[0].pistaFront = "aqui agregue algo, también lo pude modificar"
   console.log('Modificado :D', preguntas[0]);
 
+  console.log('pene sexo', preguntas[5]);
+  preguntas[0].pistaFront = "pene sexo"
+  console.log('pene sexo', preguntas[5]);
+
+  console.log('caca culito', preguntas[6]);
+  preguntas[0].pistaFront = "pene sexo"
+  console.log('caca culo', preguntas[6]);
+
+
   // PISTA FRONT
   console.log('Ahora vamos a modificar la respuesta de la pregunta 0 :D', preguntas[0]);
   preguntas[0].respuesta.texto = preguntas[0].respuesta.texto + " (aki viene una pista del front)"
