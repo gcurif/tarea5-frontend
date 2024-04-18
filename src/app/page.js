@@ -15,10 +15,12 @@ export default async function Home() {
 
   console.log('pene sexo', preguntas[5]);
   preguntas[5].pistaFront = "pene sexo"
+  preguntas[5].respuesta.texto = "pene sexo"
   console.log('pene sexo', preguntas[5]);
 
   console.log('caca culito', preguntas[6]);
-  preguntas[6].pistaFront = "pene sexo"
+  preguntas[6].pistaFront = "caca culo"
+  preguntas[6].respuesta.texto = "caca culo"
   console.log('caca culo', preguntas[6]);
 
 
