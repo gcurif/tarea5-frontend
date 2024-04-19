@@ -8,7 +8,7 @@ const Carrousel = ({ preguntas, selectedRoot }) => {
     const [selected, setSelected] = useState(selectedRoot ?? 0);
     return <>
         {selected === 0 ?
-            <CardIns title={'instrucciones'} /> :
+            <CardIns title={'Wena LOS K'} /> :
             <Card pregunta={preguntas[selected - 1]}></Card>
         }
         <div className='flex mt-6'>
